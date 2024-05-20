@@ -13,7 +13,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/api/keys")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 public class ApiKeyController {
 
     private final ApiKeyService apiKeyService;

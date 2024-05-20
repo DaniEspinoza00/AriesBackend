@@ -12,7 +12,7 @@ import org.springframework.http.HttpStatus;
 
 @RestController
 @RequestMapping("/api/favorites")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 public class FavoriteController {
 
     private final FavoriteService favoriteService;
